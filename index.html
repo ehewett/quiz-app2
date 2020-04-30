@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta description="This Quiz App will test your knowledge of Dogs" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <ul class="progress">
+          <li>Question: <span class="question-number">0</span>/7</li>
+          <li>Score: <span class="number-correct">0</span></li>
+        </ul>
+      </header>
+
+      <section class="start">
+        <h1>Dog Facts Quiz</h1>
+        <h3>Let's see what you know about dogs!</h3>
+        <div><a href="#">Start Quiz</a></div>
+      </section>
+
+      <section class="quiz"></section>
+      <section class="response"></section>
+      <section class="summary">
+        <h2>Summary</h2>
+        <p>Congrats! You got x out of y correct!</p>
+        <div><img src="images/happy-dog.jpg" alt="Happy Dog" /></div>
+        <a href="#">Restart Quiz</a>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
